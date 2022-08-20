@@ -1,0 +1,44 @@
+{
+  "name": "mbti-comp-checker",
+  "version": "1.0.0",
+  "description": "you can check compatibility based on MBTI by using this app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "src/**/*.{js,jsx,ts,tsx,json}": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuichi617/mbti-comp-checker.git"
+  },
+  "keywords": [
+    "typescript",
+    "next.js"
+  ],
+  "author": "Yuichi Sugiyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuichi617/mbti-comp-checker/issues"
+  },
+  "homepage": "https://github.com/Yuichi617/mbti-comp-checker#readme",
+  "dependencies": {
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
