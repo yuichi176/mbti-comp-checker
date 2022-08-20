@@ -36,7 +36,7 @@ const TopPage = () => {
         <Paper
           sx={{
             padding: '15px 40px',
-            marginTop: '40px',
+            marginTop: '60px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
