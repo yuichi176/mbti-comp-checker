@@ -3,7 +3,7 @@ import SelectBox from '@/components/SelectBox'
 import { Box, Button, Paper, Rating, SelectChangeEvent, Typography } from '@mui/material'
 import { useState } from 'react'
 import CloseIcon from '@mui/icons-material/Close'
-import { mbtiMap, compDesc } from '@/assets/MbtiMap'
+import { mbtiMap, compDesc } from '@/assets/mbtiMap'
 
 const TopPage = () => {
   const [type1, setType1] = useState('')
