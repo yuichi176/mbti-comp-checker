@@ -1,4 +1,6 @@
-export const mbtiMap = {
+import { MbtiMap, CompDesc } from '@/types'
+
+export const mbtiMap: MbtiMap = {
   ENTJ: {
     ENTJ: {
       compatibilityRate: 1,
@@ -801,7 +803,7 @@ export const mbtiMap = {
   },
 }
 
-export const compDesc = {
+export const compDesc: CompDesc = {
   1: 'Conflict',
   2: 'Fair',
   3: 'Good',
