@@ -33,8 +33,17 @@ const TopPage = () => {
   return (
     <Layout title='MBTI Compatibility Checker'>
       <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <Paper sx={{ padding: '15px 40px', marginTop: '40px' }}>
-          <Typography variant='h5' component='legend' sx={{ textAlign: 'center', marginBottom: '5px' }}>
+        <Paper
+          sx={{
+            padding: '15px 40px',
+            marginTop: '40px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Typography variant='h5' component='legend' sx={{ marginBottom: '5px' }}>
             {rateTitle}
           </Typography>
           <Rating name='read-only' value={rateValue} size='large' readOnly />
