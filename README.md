@@ -1,6 +1,9 @@
 # mbti-comp-checker
 you can check compatibility based on MBTI by using this app
 
+## Requirements
+* Node.js >= 20
+
 ## Getting Started
 1. Clone the repository
 
