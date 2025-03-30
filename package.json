@@ -1,7 +1,6 @@
 {
   "name": "mbti-comp-checker",
   "version": "1.0.0",
-  "description": "you can check compatibility based on MBTI by using this app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,20 +10,7 @@
     "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "src/**/*.{js,jsx,ts,tsx,json}": "prettier --write"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yuichi617/mbti-comp-checker.git"
-  },
-  "keywords": [
-    "typescript",
-    "next.js"
-  ],
   "author": "Yuichi Sugiyama",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yuichi617/mbti-comp-checker/issues"
-  },
-  "homepage": "https://github.com/Yuichi617/mbti-comp-checker#readme",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
